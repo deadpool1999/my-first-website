@@ -1,0 +1,36 @@
+body{
+    text-align: center ;
+	background-color: #666;
+	margin-left: 1%;
+	color: green ;
+}
+#myform
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 50px;
+    background-color: yellowgreen ;
+    border-radius: 10px;
+}
+#di
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-height: 200px;
+    padding: 50px;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+.btn
+{
+    margin: 20px;
+    width: 120px;
+    height: 40px;
+    background: #184372;
+    color: white;
+    font-weight: 800;
+}

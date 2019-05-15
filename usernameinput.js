@@ -27,17 +27,27 @@ var Submit = document.getElementById("Submit") ;
 //var myfirstjava = document.getElementById("myfirstjava");
 var myname = document.getElementById("di");
 var name;
+var godown = document.getElementById("goDown") ;
+godown.onclick = function(){
+    document.getElementById('di').scrollIntoView(
+        {
+            behavior : "smooth" 
+        }
+    );
+}
 //name = myname.innerText ;
 
 myname.innerHTML = "Hello" ;
 var store = document.getElementById("store");
+
 store.onclick = function(){
    var helloname = prompt("Username","") ;
    if(helloname!=null)
-   {   if( String(helloname) == String(myname.innerText) )
-        {
-            print() ;
-        }
+   {   //if( String(helloname) == String(myname.innerText) )
+       // {
+        //    print() ;
+       // }
+      
        myname.innerHTML = (myname.innerText + "\n" + 
                            " " + helloname + '\n' +
                            " " + Number(age.value) + '\n' + 
@@ -50,7 +60,7 @@ store.onclick = function(){
         //myname.innerHTML.toString ;                      
    }
 }
-Submit.onclick = function(){
-    myname.innerHTML = myname.innerText + " " + firstName.value ;
-}
+//Submit.onclick = function(){
+//    myname.innerHTML = myname.innerText + " " + firstName.value ;
+//}
 }

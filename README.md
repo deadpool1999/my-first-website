@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/deadpool1999/my-first-website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/deadpool1999/my-first-website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-16">
+            <meta name="viewport" content="width=device-width, initial-scale=2.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="usernameinput.css">
+        <style type="text/css" media="screen">
+        </style>
+       <script type="text/javascript" src="usernameinput.js" ></script>
+    </head>
+    <body>
+        <div id="myform">
+           <br> Enter Your Name - <input type="text" id="firstName" placeholder="Name"> 
+            <input type="submit" id="Submit"> </br>
+            <br> Enter your Age : <input type="number" id="age" min="16" max="22"></br>
+            <br> Enter your D.O.B : <input type="date" id="dob"></br>
+            <br>Select Your Gender - <select id="Gender">
+                <option tabindex="1" >Male</option>
+                <option tabindex="2">Female</option>
+            </select> </br>
+            <br> What subscription you want - :
+            options - <select id="subs">
+                       <option>1 Month free trial then 59/- per month for 3 months</option>
+                       <option>1 Month free trial then 49/- per month for 6 months</option>
+                       <option>1 Month free trial then 39/- per month for 12 months</option>
+                      </select> </br>   
+            
+        </div>    
+        <div id="buttons" >
+            <button id="store" class="btn" >STORE</button>
+            <button id="signin" ><a href="https://google.com">Sign in</a></button>
+            <button id="signUp"><a id="signup" href="signup.html">Sign up</a></button>
+            <button id="goDown" onclick="document.getElementById('di').scrollIntoView();" >goDown</button> 
+            
+        </div>
+        <div id="di">
+            
+        </div>
+        
+    </body>
+</html>
